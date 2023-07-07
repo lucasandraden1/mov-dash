@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100%;
+} 
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-background {
+  width: 100vw;
+  height: 99.1vh;
+}
+
+.box-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.form1{
+  position: absolute;
+  display: flex;
+  background-color: #353131;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+#username {
+  padding: 9px;
+  width: 500px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+#password {
+  padding: 9px;
+  width: 500px;
+  border-radius: 8px;
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 50px;
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+@media (max-width: 1024px){
+
+ 
+
+  .form1 {
+    width: 400px;
+    height: 400px;
+  }
+
+  #username {
+    width: 330px;
+  }
+
+  #password {
+    width: 330px;
+  }
+}
+
+@media (max-width:730px){
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .form1 {
+    width: 300px;
+    height: 330px;
+  }
+
+  #username {
+    width: 220px;
+    margin-bottom: 4px;
+  }
+
+  #password {
+    width: 220px;
+    
+  }
+}
+
+@media (max-width:520px){
+  .form1 {
+    width: 250px;
+    height: 350px;
+  }
+
+  #username {
+    width: 180px;
+  }
+
+  #password {
+    width: 180px;
+  }
+
+  .user {
+    font-size: 12px;
+  }
+
+  .senha {
+    font-size: 12px;
+  }
+
+  .button {
+    width: 80px;
+    margin-top: 40px;
+    font-size: 10px;
+  }
+
+  #error {
+    font-size: 13px;
+  }
+}

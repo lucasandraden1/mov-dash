@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>MOV</title>
+</head>
+<body>
+  <main class="container">
+    
+    <form action="form" method="post" class="form1">
+
+      <div class="box-logo">
+        <img class="logo" src="/img/Logo-MOV-Branca.png" alt="">
+      </div>
+
+      <label class="user" for="username">Username</label>
+      <input for="text" id="username" class="input" autocomplete="off" placeholder="username">
+
+      <label class="senha" for="password">Password</label>
+      <input type="password" id="password" class="input" autocomplete="off" placeholder="password">
+
+      <div id="error"></div>
+      
+      <div onclick="admin(); return false"; class="button-box">
+        <input type="submit" class="button">
+      </div>
+      
+    </form>
+
+    <div class="box-img">
+      <img class="img-background" src="/img/Imagem-MOV-6.webp" alt="">
+    </div>
+
+  </main>
+
+  <script src="/js/logins.js"></script>
+
+</body>
+</html>
